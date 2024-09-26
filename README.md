@@ -1,8 +1,9 @@
 # dotfiles
 
-For stuff I use
+Not the most clean configs but they work for me
 
 - tmux
 - nvim (tba)
-- alacritty (tba)
+- alacritty
+- zshrc
 
