@@ -1,0 +1,16 @@
+[shell]
+program = "/bin/tmux"
+
+[window]
+decorations = "None"
+startup_mode = "Maximized"
+
+[font]
+normal = { family = "CaskaydiaCove Nerd Font", style = "Regular" }
+size = 10
+
+[cursor]
+style = { shape = "Block", blinking = "Always" }
+blink_interval = 750
+unfocused_hollow = true
+
