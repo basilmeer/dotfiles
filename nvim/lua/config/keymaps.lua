@@ -5,6 +5,7 @@ local map = vim.keymap.set
 
 -- Generics
 map("n", "<C-s>", "<cmd>w<cr>", { desc = "Old habits die hard; Ctrl+s" })
+map("n", "<Esc>", "<cmd>noh<cr>", { desc = "Remove highlight" })
 
 -- Move Lines
 map("n", "<A-j>", "<cmd>m .+1<cr>==", { desc = "Move down" })
@@ -35,4 +36,5 @@ map("n", "<A-0>", "<cmd>BufferFirst<cr>",  { desc = "Go to the first buffer" })
 
 -- Telescope
 map("n", "<leader>ff", "<cmd>Telescope find_files<cr>",  { desc = "Find files" })
+map("n", "<leader>gd", "<cmd>Telescope lsp_definitions<cr>",  { desc = "Go to definition" })
 

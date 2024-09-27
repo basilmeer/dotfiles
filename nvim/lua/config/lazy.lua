@@ -29,4 +29,7 @@ require("lazy").setup({
 })
 
 require("config.lualine")
+require("config.mason")
+require("config.lspconfig")
+require("config.cmp")
 
