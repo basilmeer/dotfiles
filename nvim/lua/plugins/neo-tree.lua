@@ -25,4 +25,12 @@ return {
         end,
       },
     },
+    config = function()
+      require("neo-tree").setup({
+        popup_border_style = "rounded",
+        buffers = {
+          reveal = true
+        },
+      })
+    end
 }
