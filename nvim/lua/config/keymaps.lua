@@ -18,6 +18,7 @@ map("v", "<A-k>", ":m '<-2<cr>gv=gv", { desc = "Move up" })
 -- Neotree
 map("n", "<leader>e", "<cmd>Neotree toggle<cr>", { desc = "Open and focus Neotree" })
 map("n", "<leader>b", "<cmd>Neotree show<cr>", { desc = "Show Neotree" })
+map("n", "<leader>nr", "<cmd>Neotree reveal<cr>",  { desc = "Highlight file open in the buffer" })
 
 -- Barbar
 map("n", "<leader>x", "<cmd>BufferClose<cr>", { desc = "Close current buffer" })
@@ -37,4 +38,5 @@ map("n", "<A-0>", "<cmd>BufferFirst<cr>",  { desc = "Go to the first buffer" })
 -- Telescope
 map("n", "<leader>ff", "<cmd>Telescope find_files<cr>",  { desc = "Find files" })
 map("n", "<leader>gd", "<cmd>Telescope lsp_definitions<cr>",  { desc = "Go to definition" })
+map("n", "<leader>fa", "<cmd>Telescope live_grep<cr>",  { desc = "Find string in files" })
 

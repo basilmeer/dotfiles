@@ -32,4 +32,5 @@ require("config.lualine")
 require("config.mason")
 require("config.lspconfig")
 require("config.cmp")
+require("config.comment")
 
