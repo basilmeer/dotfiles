@@ -43,6 +43,7 @@ zi snippet OMZP::git
 zi snippet OMZP::dotenv
 zi snippet OMZP::rake
 zi snippet OMZP::ruby
+zi snippet OMZL::prompt_info_functions.zsh
 zi snippet OMZP::rails
 zi load z-shell/F-Sy-H
 
