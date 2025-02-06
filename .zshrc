@@ -47,3 +47,5 @@ zi snippet OMZL::prompt_info_functions.zsh
 zi snippet OMZP::rails
 zi load z-shell/F-Sy-H
 
+export MANPAGER='nvim +Man!'
+
